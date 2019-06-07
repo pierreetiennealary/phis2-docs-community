@@ -125,17 +125,18 @@
 
 <h1 id="data">Data</h1>
 <h2 id="view-data">View data</h2>
-<p>Ypu can view and download both environmental an phenotypic variables values from the <code>View</code> section of the <code>Data</code> menu.</p>
+<p>You can view and download both environmental an phenotypic variables values from the <code>View</code> section of the <code>Data</code> menu.</p>
 <p><img alt="view-data" src="../img/view-data.png" /></p>
 <p>Select a variable from the dropdown list at the top left corner of the table to get an overview of the data linked to this variable.</p>
 <p>You can refine your search by using the <strong>Date</strong>, <strong>Object</strong> or <strong>Provenance</strong> filters at the top of the table displaying the data associated to the selected variable.
 In order to validate your search, press enter or click anywhere outside the filter insert after having typed the content of your search.</p>
+<p>You can dowload the data linked to your search result (and to a single variable) clicking on the <span class="btn btn-primary">Download Search Result</span> button located the top left corner of the data table.</p>
 <h2 id="add-data">Add data</h2>
 <h3 id="overview-of-a-dataset-import">Overview of a dataset import</h3>
 <p>One can use the web app to manually insert data in Phis, although it is recommended to have this task covered by an automated pipeline, such as a Python scripts which inserts automatically data produced by a sensor to Phis using the <code>POST /data</code> web service.</p>
 <p>When inserting data in Phis through the webapp, one must provide :</p>
 <ul>
-<li>the name of the <strong>variable(s)</strong> concerned by the data import</li>
+<li>the name of the <strong>variable(s)</strong> concerned by the data import (you can import several data types : numeric, symbolic or date values)</li>
 <li>the source (<strong>provenance</strong>) of this dataset</li>
 <li>the dataset itself (as a <strong>CSV file</strong> in which fields are separated by semi-colons <code>;</code>, and the decimal separator is a point <code>.</code>)</li>
 </ul>
